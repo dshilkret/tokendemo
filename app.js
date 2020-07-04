@@ -4,9 +4,9 @@
     tenantUrl = localStorage.getItem("tenantUrl");
     //store config globally which will be useful for subsequent call.
     config = {
-        clientId: '86694b12-64bb-4f64-99d7-3adc1e6dde17', //57fbc2a2-1188-4ed0-aaf2-daca857d6957
+        clientId: '9624a483-5297-45f7-91da-a8ec0e75798b', //57fbc2a2-1188-4ed0-aaf2-daca857d6957
         postLogoutRedirectUri: 'https://ven02714.service-now.com/x_dtll2_docintegra_getToken.do',
-        redirectUri:'https://tokendemo2.vercel.app/index.html',
+        redirectUri:'https://ven02714.service-now.com/x_dtll2_docintegra_getToken.do',
         endpoints: {
             graphApiUri: "https://graph.microsoft.com",
             sharePointUri: tenantUrl 
